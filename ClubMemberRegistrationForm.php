@@ -2,12 +2,22 @@
 
 	$gender="";
 	$err_gender="";
-	$hobbies="";
-	$err_hobbies="";
+	$checkvalue="";
+	$err_checkvalue="";
 	$profession="";
 	$err_profession="";
 	$name="";
 	$err_name="";
+	$username="";
+	$err_username="";
+	$password="";
+	$err_password="";
+	$confirmpassword="";
+	$err_confirmpassword="";
+	$email="";
+	$err_email="";
+	$phone="";
+	$err_phone="";
 	
 	$has_error = false;
 	
@@ -29,12 +39,12 @@
 		else{
 			$gender = $_POST["gender"];
 		}
-		if(!isset($_POST["hobbies"])){
-			$err_hobbies = "Atleast select 1 hobby";
+		if(!isset($_POST["checkvalue"])){
+			$err_checkvalue = "Atleast select 1 hobby";
 			$has_error = true;
 		}
 		else{
-			$hobbies=$_POST["hobbies"];
+			$checkvalue=$_POST["checkvalue"];
 		}
 		
 		if(!$has_error){
@@ -141,7 +151,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td align="right">Where did you hear<br> about us?  <?php echo $err_hobbies;?></td>
+						<td align="right">Where did you hear<br> about us?  <?php echo $err_checkvalue;?></td>
 						<td>
 							<input type="checkbox" name="checkvalue[]" value="A Friend or Colleague"> A Friend or Colleague<br>
 							<input type="checkbox" name="checkvalue[]" value="Google"> Google <br>
