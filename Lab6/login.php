@@ -5,9 +5,9 @@
     </head>
     <body>
         <fieldset>
-            <legend><h1>Login</h1></legend>
+            <legend align="center"><h1>Login</h1></legend>
             <form action="" method="POST">
-                <table>
+                <table align="center">
                     <tr>
 						<td>Username:</td>
 						<td><input type="text" value="<?php echo $uname;?>" name="uname"></td>
@@ -23,6 +23,11 @@
 					<tr>
 						<td colspan="2" align="right">
 							<input type="submit" name="login" value="login">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" align="right">
+							<a href="registration.php" target="_blank"> Do not have an account? </a>
 						</td>
 					</tr>
                 </table>
