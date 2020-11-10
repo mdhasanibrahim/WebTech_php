@@ -18,4 +18,20 @@
     <contact>0111235</contact>
     <type>user</type>
   </user>
+  <user>
+    <fullname>Md. Hasan</fullname>
+    <username>hm</username>
+    <password>000</password>
+    <email>mdhasanibrahim@gmail.com</email>
+    <contact>0174</contact>
+    <type>user</type>
+  </user>
+  <user>
+    <fullname>Md. Hasan</fullname>
+    <username>er</username>
+    <password>aaa</password>
+    <email>mdhasanibrahim@gmail.com</email>
+    <contact>0174</contact>
+    <type>user</type>
+  </user>
 </users>
