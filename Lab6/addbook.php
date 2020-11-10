@@ -26,22 +26,27 @@
 					<tr><td>Publisher:</td></tr>
 					<tr>
 						<td><input type="text" value="" name="publisher"></td>
+						</td>
 					</tr>
 					<tr><td>Edition:</td></tr>
 					<tr>
 						<td><input type="text" value="" name="edition"></td>
+						</td>
 					</tr>
 					<tr><td>ISBN:</td></tr>
 					<tr>
 						<td><input type="text" value="" name="isbn"></td>
+						</td>
 					</tr>
 					<tr><td>PAGES:</td></tr>
 					<tr>
 						<td><input type="text" value="" name="pages"></td>
+						</td>
 					</tr>
 					<tr><td>PRICE:</td></tr>
 					<tr>
 						<td><input type="text" value="" name="price"></td>
+						</td>
 					</tr>
 					<tr>
 						<td  align="center">
