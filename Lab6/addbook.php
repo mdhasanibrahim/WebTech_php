@@ -8,7 +8,6 @@
 				    <tr><td>Book Name:</td></tr>
 				    <tr>
 						<td><input type="text" value="" name="bname"></td>
-						</td>
 					</tr>
 					<tr><td>Catagory</td></tr>
 					<tr>
