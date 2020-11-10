@@ -59,11 +59,9 @@
 					<tr>
 						<td><input type="text" value="" name="price"></td>
 					</tr>
-					<tr>
 						<td  align="center">
 							<input type="submit" name="register" value="OK">
 						</td>
-					</tr>
 				</table>
 			</form>
 		</fieldset>
